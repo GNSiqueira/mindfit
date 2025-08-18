@@ -26,7 +26,7 @@ const postgres: DataSourceOptions = {
 
 const sqlite: DataSourceOptions = {
     type: 'sqlite',
-    database: './.db/mindfit_db.db',
+    database: './.db/mindfitdb.db',
     entities: [join(__dirname, '**', '*.entity.{ts,js}')],
     synchronize: true
 }

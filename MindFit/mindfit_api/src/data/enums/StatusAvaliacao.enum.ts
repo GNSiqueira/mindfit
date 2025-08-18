@@ -1,0 +1,12 @@
+export enum StatusAvaliacao {
+    SOLICITADO = 0,
+    AGENDADO = 1,
+    EM_ANDAMENTO = 2,
+    FEITO = 3,
+    AGUARDANDO_FEEDBACK = 4,
+    NAO_COMPARECEU = 5,
+    INCOMPLETO = 6,
+    CANCELADO_CLIENTE = 7,
+    CANCELADO_TRAINER = 8,
+    REMARCADO = 9
+}

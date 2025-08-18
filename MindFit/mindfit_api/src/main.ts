@@ -1,13 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { Module, ValidationPipe, VersioningType } from '@nestjs/common';
-import { TypeOrmModule } from '@nestjs/typeorm';
-import { config } from './configuration';
-import { TaskModule } from './task/task.module';
-
-@Module({
-  imports: [TypeOrmModule.forRoot(config), TaskModule],
-})
-export class AppModule {}
+import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);

@@ -1,0 +1,157 @@
+# ===================================================================
+# .gitignore para Projeto Híbrido (NestJS, Flutter, Python)
+# ===================================================================
+
+# Arquivos específicos mencionados para ignorar
+# -------------------------------------------------------------------
+# Adicione aqui arquivos que você não quer que entrem no controle de versão.
+teste.py
+Diagrama de Classe.asta.lock
+
+
+# Arquivos de log e cache
+# -------------------------------------------------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# Arquivos de configuração de ambiente
+# -------------------------------------------------------------------
+# Nunca versione arquivos com senhas, chaves de API ou segredos.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+
+# Arquivos de sistema operacional
+# -------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ===================================================================
+# Seção NestJS (Backend API)
+# ===================================================================
+
+# Dependências
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Pasta de build (arquivos compilados)
+dist/
+build/
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# ===================================================================
+# Seção Flutter (Mobile App)
+# ===================================================================
+
+# Arquivos gerados pelo Flutter e Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock # Geralmente é versionado em apps, mas ignorado em bibliotecas. Descomente se for uma biblioteca.
+
+# Pasta de build do Flutter
+build/
+
+# Arquivos de configuração de IDEs (Android Studio / IntelliJ / VS Code)
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Arquivos de build do iOS (Xcode)
+ios/Pods/
+ios/Flutter/App.framework
+ios/Flutter/engine.xcframework
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+
+# Arquivos de build do Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/.idea/
+
+# Arquivos de build do Web
+web/build/
+
+# Arquivos de build do Windows
+windows/build/
+windows/flutter/ephemeral/
+windows/runner/Debug/
+windows/runner/Profile/
+windows/runner/Release/
+windows/.vs/
+
+# Arquivos de build do Linux
+linux/build/
+linux/flutter/ephemeral/
+linux/.vs/
+
+# Arquivos de build do macOS
+macos/build/
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/.symlinks/
+macos/Runner.xcworkspace/
+macos/Runner.xcodeproj/project.xcworkspace/
+macos/Runner.xcodeproj/xcuserdata/
+
+
+# ===================================================================
+# Seção Python (Scripts)
+# ===================================================================
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+.env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de distribuição/instalação
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Cache de testes
+.pytest_cache/
+.tox/
+.coverage
+
+
