@@ -1,0 +1,41 @@
+Arquivos e pastas do Dart e Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+Arquivos de log e crash
+*.log
+.crash_report/
+/coverage/
+
+Configurações do Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+Configurações do VS Code
+.vscode/
+
+Configurações do Android
+/android/local.properties
+/android/key.properties
+/android/.gradle/
+/android/app/src/main/assets/flutter_assets/
+/android/gradle.properties
+/android/gradle-wrapper.properties
+
+Configurações do iOS / macOS
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Runner.xcworkspace/
+/ios/Runner.xcodeproj/
+/ios/Pods/
+/ios/Podfile.lock
+/ios/.symlinks/
+/ios/Flutter/App.framework
+/ios/Flutter/engine
+/ios/Flutter/ephemeral/
+.DS_Store

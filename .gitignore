@@ -154,4 +154,5 @@ build/
 .tox/
 .coverage
 
+teste/
 
