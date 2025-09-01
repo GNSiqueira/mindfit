@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mindfit_app/components/SideBar/item_sidebar.dart';
+import 'package:mindfit_app/components/Trainer/SideBar/item_sidebar.dart';
 import 'package:mindfit_app/pages/index.dart';
 import 'package:mindfit_app/theme/constants.dart';
 
@@ -19,7 +19,7 @@ class SideBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final alturaTela = MediaQuery.of(context).size.height;
-    
+
     return Padding(
       padding: EdgeInsets.only(
         bottom: alturaTela * 0.02,

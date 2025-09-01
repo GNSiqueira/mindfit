@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:mindfit_app/components/SideBar/index.dart';
+import 'package:mindfit_app/components/Trainer/SideBar/index.dart';
 import 'package:mindfit_app/pages/Trainer/Cliente/index.dart';
 import 'package:mindfit_app/pages/Trainer/Home/index.dart';
 import 'package:mindfit_app/pages/Trainer/Configuracao/index.dart';
