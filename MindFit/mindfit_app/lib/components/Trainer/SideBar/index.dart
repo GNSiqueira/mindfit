@@ -32,7 +32,7 @@ class SideBar extends StatelessWidget {
           color: Consts.colorGray_200,
           borderRadius: Consts.borderRadiusFull,
         ),
-        height: alturaTela * 0.065,
+        height: alturaTela * 0.07,
         child: AnimatedPadding(
           duration: Duration(milliseconds: 100),
           padding: EdgeInsets.only(

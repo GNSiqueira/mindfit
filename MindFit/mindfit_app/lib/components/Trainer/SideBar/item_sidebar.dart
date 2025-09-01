@@ -49,7 +49,7 @@ class ItemSideBar extends StatelessWidget {
                   title,
                   style: TextStyle(
                     color: Consts.colorGreen_600,
-                    fontSize: largura * 0.036,
+                    fontSize: largura * 0.038,
                     fontFamily: 'Inter',
                     fontWeight: FontWeight.w700,
                   ),
