@@ -6,7 +6,7 @@ class Overflow extends StatelessWidget {
   final Alignment? alignment;
   final Widget widget;
 
-  const Overflow({this.largura, this.altura, required this.widget, this.alignment});
+  const Overflow({super.key, this.largura, this.altura, required this.widget, this.alignment});
 
   @override
   Widget build(BuildContext context) {

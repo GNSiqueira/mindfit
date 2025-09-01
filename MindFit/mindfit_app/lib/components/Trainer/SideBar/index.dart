@@ -7,7 +7,7 @@ class SideBar extends StatelessWidget {
   final AppPage select;
   final ValueChanged<AppPage> onTap;
 
-  const SideBar({required this.select, required this.onTap});
+  const SideBar({super.key, required this.select, required this.onTap});
 
   static const List<Map<String, dynamic>> itensBar = [
     {'icon': Icons.home_filled, 'label': 'Início', "id": AppPage.home},

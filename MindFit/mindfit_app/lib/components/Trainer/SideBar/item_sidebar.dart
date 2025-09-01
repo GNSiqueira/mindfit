@@ -9,6 +9,7 @@ class ItemSideBar extends StatelessWidget {
   final bool select;
 
   const ItemSideBar({
+    super.key,
     required this.icon,
     required this.title,
     required this.onTap,

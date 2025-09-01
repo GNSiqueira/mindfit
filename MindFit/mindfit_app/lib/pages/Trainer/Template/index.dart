@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 class TemplatePage extends StatelessWidget {
+  const TemplatePage({super.key});
   @override
   Widget build(BuildContext context) {
     return Container(
